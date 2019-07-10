@@ -1,0 +1,113 @@
+40*40 grid with 30 percent fixed 
+avrg time               :               0.008881
+sucess rate             :               100.0000
+avrg vio                :               0.0000
+minimum violation       :               0 in/PLSE-40-30-0/QWH-40-30-1.txt
+maximum violation       :               0 in/PLSE-40-30-0/QWH-40-30-1.txt
+
+40*40 grid with 40 percent fixed 
+avrg time               :               0.013740
+sucess rate             :               100.0000
+avrg vio                :               0.0000
+minimum violation       :               0 in/PLSE-40-40-0/QWH-40-40-1.txt
+maximum violation       :               0 in/PLSE-40-40-0/QWH-40-40-1.txt
+
+40*40 grid with 50 percent fixed 
+avrg time               :               0.674240
+sucess rate             :               96.0000
+avrg vio                :               0.0800
+minimum violation       :               0 in/PLSE-40-50-0/QWH-40-50-1.txt
+maximum violation       :               2 in/PLSE-40-50-0/QWH-40-50-11.txt
+
+40*40 grid with 60 percent fixed 
+avrg time               :               3.326376
+sucess rate             :               82.0000
+avrg vio                :               0.3600
+minimum violation       :               0 in/PLSE-40-60-0/QWH-40-60-1.txt
+maximum violation       :               2 in/PLSE-40-60-0/QWH-40-60-12.txt
+
+40*40 grid with 70 percent fixed 
+avrg time               :               10.699856
+sucess rate             :               47.0000
+avrg vio                :               1.2300
+minimum violation       :               0 in/PLSE-40-70-0/QWH-40-70-100.txt
+maximum violation       :               6 in/PLSE-40-70-0/QWH-40-70-75.txt
+
+40*40 grid with 80 percent fixed 
+avrg time               :               0.005626
+sucess rate             :               100.0000
+avrg vio                :               0.0000
+minimum violation       :               0 in/PLSE-40-80-0/QWH-40-80-1.txt
+maximum violation       :               0 in/PLSE-40-80-0/QWH-40-80-1.txt
+
+
+50*50 grid with 30 percent fixed 
+avrg time               :               0.016157
+sucess rate             :               100.0000
+avrg vio                :               0.0000
+minimum violation       :               0 in/PLSE-50-30-0/QWH-50-30-1.txt
+maximum violation       :               0 in/PLSE-50-30-0/QWH-50-30-1.txt
+
+50*50 grid with 40 percent fixed 
+avrg time               :               0.029634
+sucess rate             :               100.0000
+avrg vio                :               0.0000
+minimum violation       :               0 in/PLSE-50-40-0/QWH-50-40-1.txt
+maximum violation       :               0 in/PLSE-50-40-0/QWH-50-40-1.txt
+
+50*50 grid with 50 percent fixed 
+avrg time               :               1.077743
+sucess rate             :               96.0000
+avrg vio                :               0.0800
+minimum violation       :               0 in/PLSE-50-50-0/QWH-50-50-1.txt
+maximum violation       :               2 in/PLSE-50-50-0/QWH-50-50-48.txt
+
+50*50 grid with 60 percent fixed 
+avrg time               :               12.557734
+sucess rate             :               72.0000
+avrg vio                :               0.5600
+minimum violation       :               0 in/PLSE-50-60-0/QWH-50-60-1.txt
+maximum violation       :               2 in/PLSE-50-60-0/QWH-50-60-100.txt
+
+50*50 grid with 70 percent fixed 
+avrg time               :               22.063910
+sucess rate             :               0.0000
+avrg vio                :               5.2200
+minimum violation       :               2 in/PLSE-50-70-0/QWH-50-70-14.txt
+maximum violation       :               8 in/PLSE-50-70-0/QWH-50-70-45.txt
+
+50*50 grid with 80 percent fixed 
+avrg time               :               0.011153
+sucess rate             :               100.0000
+avrg vio                :               0.0000
+minimum violation       :               0 in/PLSE-50-80-0/QWH-50-80-1.txt
+maximum violation       :               0 in/PLSE-50-80-0/QWH-50-80-1.txt
+
+
+60*60 grid with 30 percent fixed 
+avrg time               :               0.027093
+sucess rate             :               100.0000
+avrg vio                :               0.0000
+minimum violation       :               0 in/PLSE-60-30-0/QWH-60-30-1.txt
+maximum violation       :               0 in/PLSE-60-30-0/QWH-60-30-1.txt
+
+60*60 grid with 40 percent fixed 
+avrg time               :               0.074903
+sucess rate             :               100.0000
+avrg vio                :               0.0000
+minimum violation       :               0 in/PLSE-60-40-0/QWH-60-40-1.txt
+maximum violation       :               0 in/PLSE-60-40-0/QWH-60-40-1.txt
+
+60*60 grid with 50 percent fixed 
+avrg time               :               4.348399
+sucess rate             :               94.0000
+avrg vio                :               0.1200
+minimum violation       :               0 in/PLSE-60-50-0/QWH-60-50-1.txt
+maximum violation       :               2 in/PLSE-60-50-0/QWH-60-50-13.txt
+
+60*60 grid with 60 percent fixed 
+avrg time               :               31.475553
+sucess rate             :               2.0000
+avrg vio                :               3.4800
+minimum violation       :               0 in/PLSE-60-60-0/QWH-60-60-2.txt
+maximum violation       :               6 in/PLSE-60-60-0/QWH-60-60-44.txt

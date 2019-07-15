@@ -1,3 +1,7 @@
+int cell (int r, int c, int n){
+    return (n-1)*r + c;
+}
+
 
 
 inline int myRand(int n)

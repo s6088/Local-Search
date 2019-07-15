@@ -12,6 +12,8 @@ int latinSquare[N][N], frequency[N][N], rows[N][N], clms[N][N];
 int columnViolation[N], temp[N], swappable[N][N], rowViolation[N];
 int localMinimum, globalMinimum, iteration, plateauLength, mxplateauLength;
 
+int tabu[N][N];
+
 void solve(int n)
 {
     input(n);
@@ -20,10 +22,7 @@ void solve(int n)
 
     globalMinimum = localMinimum;
 
-    for (int i = 1; i <= n; i++)
-        cout << i << ' ' << rowViolation[i] << endl;
-
-    while (globalMinimum && iteration <= 1e8)
+    while (globalMinimum && iteration <= 1e7)
     {
         iteration++;
         int c1 = getViolatedClmRandomly(n);
@@ -32,17 +31,13 @@ void solve(int n)
         cellSwap(r, c1, c2);
         if (globalMinimum > localMinimum)
             globalMinimum = localMinimum, mxplateauLength = max(mxplateauLength, plateauLength), plateauLength = 0;
-        else
+        else{
+            tabu[r][c1] = iteration + 10;
+            tabu[r][c1] = iteration + 10;
             plateauLength++;
+        }
     }
 
-    for (int i = 1; i <= n; i++)
-        for (int j = 1; j <= n; j++)
-        {
-            rowViolation[i] += (frequency[j][latinSquare[i][j]] > 1);
-        }
-    for (int i = 1; i <= n; i++)
-        cout << i << ' ' << rowViolation[i] << endl;
 }
 
 int main(int argc, char *argv[])
@@ -55,6 +50,5 @@ int main(int argc, char *argv[])
     n = atoi(argv[2]);
     solve(n);
     cout << fixed << setprecision(5) << globalMinimum << "\t" << (double)(clock() - timeStart) / CLOCKS_PER_SEC << "\t" << argv[1] << endl;
-    cout << mxplateauLength << endl;
     isLatinSquare(n);
 }

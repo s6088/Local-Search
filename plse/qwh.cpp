@@ -12,7 +12,7 @@ int latinSquare[N][N], frequency[N][N], rows[N][N], clms[N][N];
 int columnViolation[N], temp[N], swappable[N][N], rowViolation[N];
 int localMinimum, globalMinimum, iteration, plateauLength, mxplateauLength;
 
-int tabu[N][N];
+int tabu[N * N][N * N], fix[N];
 
 void solve(int n)
 {
@@ -31,13 +31,16 @@ void solve(int n)
         cellSwap(r, c1, c2);
         if (globalMinimum > localMinimum)
             globalMinimum = localMinimum, mxplateauLength = max(mxplateauLength, plateauLength), plateauLength = 0;
-        else{
-            tabu[r][c1] = iteration + 10;
-            tabu[r][c1] = iteration + 10;
+        else
+        {
+
             plateauLength++;
         }
-    }
 
+        // int n1 = cellNo(r, c1, n), n2 = cellNo(r, c2, n);
+        // tabu[n1][latinSquare[r][c2]] = iteration + 3;
+        // tabu[n2][latinSquare[r][c1]] = iteration + 3;
+    }
 }
 
 int main(int argc, char *argv[])

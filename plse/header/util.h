@@ -1,4 +1,4 @@
-int cell (int r, int c, int n){
+int cellNo (int r, int c, int n){
     return (n-1)*r + c;
 }
 
@@ -66,6 +66,7 @@ void input(int n)
             if (temp != "-")
             {
                 ss >> latinSquare[i][j], swappable[i][j] = latinSquare[i][j];
+                fix[i]++;
             }
             else
             {
@@ -133,3 +134,28 @@ void randomStep(int r){
     int y = myRand(clms[r][0]);
     cellSwap(r, clms[r][x], clms[r][y]);
 }
+
+
+
+int findCeil(int arr[], int r, int l, int h)  
+{  
+    int mid;  
+    while (l < h)  
+    {  
+        mid = l + ((h - l) >> 1);
+        (r > arr[mid]) ? (l = mid + 1) : (h = mid);  
+    }  
+    return (arr[l] >= r) ? l : -1;  
+}  
+  
+ //0 indexing
+int myRand(int freq[], int n)  
+{  
+    int prefix[n], i;  
+    prefix[0] = freq[0];  
+    for (i = 1; i < n; ++i)  
+        prefix[i] = prefix[i - 1] + freq[i]; 
+    int r = (rand() % prefix[n - 1]) + 1;  
+    return  findCeil(prefix, r, 0, n - 1);
+}  
+

@@ -1,0 +1,14 @@
+Alias /static /home/sadmanahmed0/capsico/static
+    <Directory /home/sadmanahmed0/capsico/static>
+        Require all granted
+    </Directory>
+
+    <Directory /home/sadmanahmed0/capsico/capsico>
+        <Files wsgi.py>
+            Require all granted
+        </Files>
+    </Directory>
+
+    WSGIDaemonProcess capsico python-home=/home/sadmanahmed0/capsico/venv python-path=/home/sadmanahmed0/capsico
+    WSGIProcessGroup capsico
+    WSGIScriptAlias / /home/sadmanahmed0/capsico/capsico/wsgi.py

@@ -1,40 +1,100 @@
-<VirtualHost *:80>
-	
-	WSGIScriptAlias / /home/sadmanahme0/pizzacapsico.wsgi
-	ServerName pizzacapsico.com
-
-
-</VirtualHost>
-
-	Alias /static /home/sadmanahme0/pizzacapsico/static/
-	<Directory /home/sadmanahme0/pizzacapsico/>
-		Require all granted
-    </Directory>
-
-
-<VirtualHost *:80>
-        # The ServerName directive sets the request scheme, hostname and port that
-        # the server uses to identify itself. This is used when creating
-        # redirection URLs. In the context of virtual hosts, the ServerName
-        # specifies what hostname must appear in the request's Host: header to
-        # match this virtual host. For the default virtual host (this file) this
-        # value is not decisive as it is used as a last resort host regardless.
-        # However, you must set it for any further virtual host explicitly.
-        #ServerName www.example.com
-        ServerAdmin webmaster@localhost
-        DocumentRoot /var/www/html
-        # Available loglevels: trace8, ..., trace1, debug, info, notice, warn,
-        # error, crit, alert, emerg.
-        # It is also possible to configure the loglevel for particular
-        # modules, e.g.
-        #LogLevel info ssl:warn
-        ErrorLog ${APACHE_LOG_DIR}/error.log
-        CustomLog ${APACHE_LOG_DIR}/access.log combined
-        # For most configuration files from conf-available/, which are
-        # enabled or disabled at a global level, it is possible to
-        # include a line for only one particular virtual host. For example the
-        # following line enables the CGI configuration for this host only
-        # after it has been globally disabled with "a2disconf".
-        #Include conf-available/serve-cgi-bin.conf
-</VirtualHost>
-# vim: syntax=apache ts=4 sw=4 sts=4 sr noet
+15	8.16141	in/PLSE-70-70-0/QWH-70-70-1.txt 1564735055
+15	8.13997	in/PLSE-70-70-0/QWH-70-70-10.txt 1564735063
+15	7.95760	in/PLSE-70-70-0/QWH-70-70-100.txt 1564735071
+17	7.91531	in/PLSE-70-70-0/QWH-70-70-11.txt 1564735079
+16	7.93474	in/PLSE-70-70-0/QWH-70-70-12.txt 1564735087
+15	7.97764	in/PLSE-70-70-0/QWH-70-70-13.txt 1564735095
+16	8.27349	in/PLSE-70-70-0/QWH-70-70-14.txt 1564735103
+15	8.09347	in/PLSE-70-70-0/QWH-70-70-15.txt 1564735111
+16	7.92352	in/PLSE-70-70-0/QWH-70-70-16.txt 1564735119
+14	7.96496	in/PLSE-70-70-0/QWH-70-70-17.txt 1564735127
+14	7.94446	in/PLSE-70-70-0/QWH-70-70-18.txt 1564735135
+14	7.98956	in/PLSE-70-70-0/QWH-70-70-19.txt 1564735143
+17	7.90846	in/PLSE-70-70-0/QWH-70-70-2.txt 1564735151
+17	8.06958	in/PLSE-70-70-0/QWH-70-70-20.txt 1564735159
+16	8.00915	in/PLSE-70-70-0/QWH-70-70-21.txt 1564735167
+20	7.99634	in/PLSE-70-70-0/QWH-70-70-22.txt 1564735175
+16	7.94116	in/PLSE-70-70-0/QWH-70-70-23.txt 1564735183
+12	7.92850	in/PLSE-70-70-0/QWH-70-70-24.txt 1564735191
+15	7.99041	in/PLSE-70-70-0/QWH-70-70-25.txt 1564735199
+16	8.02859	in/PLSE-70-70-0/QWH-70-70-26.txt 1564735207
+16	7.91770	in/PLSE-70-70-0/QWH-70-70-27.txt 1564735215
+18	8.10950	in/PLSE-70-70-0/QWH-70-70-28.txt 1564735223
+15	8.05304	in/PLSE-70-70-0/QWH-70-70-29.txt 1564735231
+17	8.04894	in/PLSE-70-70-0/QWH-70-70-3.txt 1564735239
+16	7.98727	in/PLSE-70-70-0/QWH-70-70-30.txt 1564735247
+17	8.00661	in/PLSE-70-70-0/QWH-70-70-31.txt 1564735255
+15	7.99829	in/PLSE-70-70-0/QWH-70-70-32.txt 1564735263
+20	7.90830	in/PLSE-70-70-0/QWH-70-70-33.txt 1564735271
+19	7.89911	in/PLSE-70-70-0/QWH-70-70-34.txt 1564735279
+14	8.14066	in/PLSE-70-70-0/QWH-70-70-35.txt 1564735287
+17	7.93229	in/PLSE-70-70-0/QWH-70-70-36.txt 1564735295
+17	7.89253	in/PLSE-70-70-0/QWH-70-70-37.txt 1564735303
+15	7.98456	in/PLSE-70-70-0/QWH-70-70-38.txt 1564735311
+14	7.95094	in/PLSE-70-70-0/QWH-70-70-39.txt 1564735319
+18	8.01395	in/PLSE-70-70-0/QWH-70-70-4.txt 1564735327
+15	7.92900	in/PLSE-70-70-0/QWH-70-70-40.txt 1564735335
+18	8.56533	in/PLSE-70-70-0/QWH-70-70-41.txt 1564735343
+15	8.13837	in/PLSE-70-70-0/QWH-70-70-42.txt 1564735351
+14	8.00386	in/PLSE-70-70-0/QWH-70-70-43.txt 1564735359
+13	8.03634	in/PLSE-70-70-0/QWH-70-70-44.txt 1564735367
+19	8.04627	in/PLSE-70-70-0/QWH-70-70-45.txt 1564735375
+15	8.01615	in/PLSE-70-70-0/QWH-70-70-46.txt 1564735383
+15	8.00882	in/PLSE-70-70-0/QWH-70-70-47.txt 1564735391
+16	7.92572	in/PLSE-70-70-0/QWH-70-70-48.txt 1564735399
+15	8.03548	in/PLSE-70-70-0/QWH-70-70-49.txt 1564735407
+17	7.99302	in/PLSE-70-70-0/QWH-70-70-5.txt 1564735415
+16	7.92763	in/PLSE-70-70-0/QWH-70-70-50.txt 1564735423
+16	7.97471	in/PLSE-70-70-0/QWH-70-70-51.txt 1564735431
+16	7.94118	in/PLSE-70-70-0/QWH-70-70-52.txt 1564735439
+14	8.03691	in/PLSE-70-70-0/QWH-70-70-53.txt 1564735447
+13	7.95063	in/PLSE-70-70-0/QWH-70-70-54.txt 1564735455
+20	7.92649	in/PLSE-70-70-0/QWH-70-70-55.txt 1564735463
+14	8.06687	in/PLSE-70-70-0/QWH-70-70-56.txt 1564735471
+16	8.07234	in/PLSE-70-70-0/QWH-70-70-57.txt 1564735479
+18	7.89805	in/PLSE-70-70-0/QWH-70-70-58.txt 1564735487
+15	8.03870	in/PLSE-70-70-0/QWH-70-70-59.txt 1564735495
+18	7.95336	in/PLSE-70-70-0/QWH-70-70-6.txt 1564735503
+17	7.93468	in/PLSE-70-70-0/QWH-70-70-60.txt 1564735511
+18	7.97694	in/PLSE-70-70-0/QWH-70-70-61.txt 1564735519
+15	7.94737	in/PLSE-70-70-0/QWH-70-70-62.txt 1564735527
+18	7.95799	in/PLSE-70-70-0/QWH-70-70-63.txt 1564735535
+16	7.93481	in/PLSE-70-70-0/QWH-70-70-64.txt 1564735543
+17	7.98988	in/PLSE-70-70-0/QWH-70-70-65.txt 1564735551
+16	7.91351	in/PLSE-70-70-0/QWH-70-70-66.txt 1564735559
+14	7.97851	in/PLSE-70-70-0/QWH-70-70-67.txt 1564735567
+15	8.11208	in/PLSE-70-70-0/QWH-70-70-68.txt 1564735575
+13	7.94271	in/PLSE-70-70-0/QWH-70-70-69.txt 1564735583
+18	7.93195	in/PLSE-70-70-0/QWH-70-70-7.txt 1564735591
+16	7.99202	in/PLSE-70-70-0/QWH-70-70-70.txt 1564735599
+16	8.06241	in/PLSE-70-70-0/QWH-70-70-71.txt 1564735607
+12	7.95083	in/PLSE-70-70-0/QWH-70-70-72.txt 1564735615
+17	7.93873	in/PLSE-70-70-0/QWH-70-70-73.txt 1564735623
+16	8.05337	in/PLSE-70-70-0/QWH-70-70-74.txt 1564735631
+11	7.96983	in/PLSE-70-70-0/QWH-70-70-75.txt 1564735639
+18	7.92522	in/PLSE-70-70-0/QWH-70-70-76.txt 1564735647
+17	7.96473	in/PLSE-70-70-0/QWH-70-70-77.txt 1564735655
+17	8.00554	in/PLSE-70-70-0/QWH-70-70-78.txt 1564735663
+19	7.94864	in/PLSE-70-70-0/QWH-70-70-79.txt 1564735671
+17	7.94629	in/PLSE-70-70-0/QWH-70-70-8.txt 1564735679
+15	7.93655	in/PLSE-70-70-0/QWH-70-70-80.txt 1564735687
+18	7.95399	in/PLSE-70-70-0/QWH-70-70-81.txt 1564735695
+16	7.96536	in/PLSE-70-70-0/QWH-70-70-82.txt 1564735703
+17	7.96142	in/PLSE-70-70-0/QWH-70-70-83.txt 1564735710
+17	8.03812	in/PLSE-70-70-0/QWH-70-70-84.txt 1564735718
+11	7.98661	in/PLSE-70-70-0/QWH-70-70-85.txt 1564735726
+19	7.95584	in/PLSE-70-70-0/QWH-70-70-86.txt 1564735734
+16	7.95320	in/PLSE-70-70-0/QWH-70-70-87.txt 1564735742
+17	8.01833	in/PLSE-70-70-0/QWH-70-70-88.txt 1564735750
+19	7.94481	in/PLSE-70-70-0/QWH-70-70-89.txt 1564735758
+16	8.09096	in/PLSE-70-70-0/QWH-70-70-9.txt 1564735766
+15	7.98407	in/PLSE-70-70-0/QWH-70-70-90.txt 1564735774
+21	7.91460	in/PLSE-70-70-0/QWH-70-70-91.txt 1564735782
+19	8.05675	in/PLSE-70-70-0/QWH-70-70-92.txt 1564735790
+18	7.93080	in/PLSE-70-70-0/QWH-70-70-93.txt 1564735798
+19	8.08219	in/PLSE-70-70-0/QWH-70-70-94.txt 1564735806
+19	7.94288	in/PLSE-70-70-0/QWH-70-70-95.txt 1564735814
+18	8.02259	in/PLSE-70-70-0/QWH-70-70-96.txt 1564735822
+15	8.02073	in/PLSE-70-70-0/QWH-70-70-97.txt 1564735830
+17	8.06190	in/PLSE-70-70-0/QWH-70-70-98.txt 1564735838
+16	7.94050	in/PLSE-70-70-0/QWH-70-70-99.txt 1564735846

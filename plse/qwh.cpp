@@ -47,11 +47,12 @@ int main(int argc, char *argv[])
 {
     freopen(argv[1], "r", stdin);
     clock_t timeStart = clock();
-    srand(time(0));
+time_t seed = time(0);
+    srand(seed);
     int n;
     cin >> n;
     n = atoi(argv[2]);
     solve(n);
-    cout << fixed << setprecision(5) << globalMinimum << "\t" << (double)(clock() - timeStart) / CLOCKS_PER_SEC << "\t" << argv[1] << endl;
+    cout << fixed << setprecision(5) << globalMinimum << "\t" << (double)(clock() - timeStart) / CLOCKS_PER_SEC << "\t" << argv[1] << " " << seed << endl;
     isLatinSquare(n);
 }
